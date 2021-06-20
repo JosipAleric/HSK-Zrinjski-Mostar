@@ -1,0 +1,249 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+/* Headers start */
+.first-header{
+    margin-top: 30px;
+}
+
+.main-header{
+    margin-left: 80px;
+    background-color: #cd0804;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.main-header img{
+    float: left;
+    margin-top: -50px;
+    margin-left: -10px;
+}
+
+.lista{
+    display: inline;
+    list-style: none;
+}
+
+.main-header li a{
+    color: #fff;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.main-header li a:hover{
+    color: #fff;
+    border-bottom: solid 3px white;
+    padding-bottom: 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Headers end */
+
+
+/* Social media icons start */
+.social-media{
+    background-color: #cd0804;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.social-media #mreze{
+    margin-top: 50px;
+
+}
+
+.social-media #mreze img{
+    margin: 40px;
+}
+
+.social-media .social-icons{
+font-family: 'Supermercado One', cursive;
+font-size:300%;
+}
+
+.social-media ul {  
+    margin-left: -60px;
+}
+
+.social-media li {
+    list-style:none;
+    display:inline-block;
+    margin-left:35px;
+    color:#fff;
+    height:50px;
+    width:50px;
+    padding:7px;
+    border: 2px solid #fff transparent;
+    border-radius:50%;
+    transition: 0.5s;
+}
+
+.social-media li a{
+    color: #fff
+}
+
+.social-media li a:hover {
+    color:#000;
+    transition:0.5s;
+    box-shadow: 0 10px 5px rgba(0,0,0,.2);
+}
+/* Social media icons end */
+
+
+/* Newsletter start */
+.newsletter {
+    background-color: #cd0804;
+    padding: 100px 15px;
+    color: #fff;
+    border: 3px solid white;
+    border-radius: 15px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.newsletter h2, .newsletter p{
+    text-align: center;
+    line-height: 34px;
+}
+
+.newsletter-box {
+    margin: 20px auto;
+    display: table;
+}
+
+.newsletter-box i {
+    background: #f7f7f7;
+    width: 60px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: red;
+    border-right: 1px solid #ddd;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 42px;
+}
+
+.newsletter .newsletter-box button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #cd0804;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-left: 0px;
+    height: 42px;
+    margin-top: 5px;
+}
+.emailbox{
+    border: none;
+    outline: none;
+}
+.emailbox {
+    width: 0px;
+    height: 42px;
+    transition: 0.6s;
+    font-size: 16px;
+}
+.newsletter-box:hover > .emailbox, .emailbox:focus{
+    width: 280px;
+    padding: 0 10px;
+}
+/* Newsletter end */
+
+
+/* Last section */
+.last-section{
+    background-color: #cd0804;
+    color: blanchedalmond;
+    font-size: 15px;
+    padding: 1px;
+    text-align: center;
+}
+
+.last-section p{
+    padding-top: 10px;
+}
+/* Last section end */
+
+
+/* Style class section start */
+.style{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.style hr{
+    border: 0;
+    height: 4px;
+    background: #000000;
+    background-image: linear-gradient(to right, #ccc, #000000, #ccc);
+}
+
+.style p{
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Georgia, serif;
+    font-size: larger;
+    text-align:left;
+}
+
+.prvi{
+    padding-top: 30px;
+}
+
+#povijest #titule{
+    text-align: left;
+}
+
+.style #hero-row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Style class section end */
+
+
+/* Form section start */
+#form{
+    border: 4px solid white;
+    border-radius: 25px;
+    background-color: #cd0804;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#form button:hover{
+    background-color: #cd0804;
+    color: #fff;
+    transition: 0.3s;
+}
+/* Form section end */
+
+/* Table section start */
+.style .tablica{
+    margin-top: 30px;
+    border: 5px solid #cd0804;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.style .tablica #head{
+    background-color: #cd0804;
+    color: #fff;
+}
+/* Table section end */
