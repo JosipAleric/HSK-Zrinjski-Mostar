@@ -223,13 +223,14 @@ font-size:300%;
 
 /* Form section start */
 #form{
-    border: 4px solid white;
+    border: 4px solid #cd0804;
     border-radius: 25px;
     background-color: #cd0804;
     padding: 30px;
     text-align: center;
     color: #fff;
     margin-top: 20px;
+    box-shadow: 10px 10px 8px grey;
 }
 
 #form button:hover{
