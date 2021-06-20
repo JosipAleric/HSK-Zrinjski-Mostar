@@ -215,7 +215,7 @@ font-size:300%;
     margin-bottom: 30px;
 }
 
-#hero-row img{
+.style #hero-row img{
     box-shadow: 10px 10px 8px grey;
 }
 /* Style class section end */
