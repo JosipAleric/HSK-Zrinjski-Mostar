@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="./images/logo.png">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Škola - HŠK Zrinjski Mostar</title>
+  </head>
+
+  <body>
+
+    <!-- Headers -->
+    <header>
+      <div class="first-header"></div>
+      <div class="main-header">
+          <img src="./images/logo.png" alt="" width="150px" height="150px"> 
+          <nav class="navbar navbar-expand-sm  justify-content-center">
+            <ul class="navbar-nav" id="lista">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">KLUB</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./povijest.html">POVIJEST</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./stadion.html">STADION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./skola.html">ŠKOLA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tablica.html">TABLICA</a>
+              </li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+    <!-- Headers end -->
+
+    <!--Skola section start-->
+    <div class="container text-center animate__animated animate__zoomIn">
+        <div class="style">
+            <hr>
+            <h1>NOGOMETNA ŠKOLA</h1>
+            <div class="row">
+                <div class="col-md-7">
+                    <p class="prvi">
+                        Klub je od početka rada veliku pozornost poklanjao omladinskoj školi, kroz koju je prošao veliki broj 
+                        igrača i koju uprava kluba štiti i podržava kako mladi igrači ne bi odlazili iz kluba. <br><br>Mlade selekcije su, 
+                        također, nastupale na velikom broju turnira, osvajale su titulu prvaka Herceg-Bosne te plasirale se i u završno 
+                        natjecanje za prvaka BiH. Škola nogometa, kroz koju je prošao veliki broj igrača u budućnosti trebala biti glavni 
+                        izvor igrača za prvu momčad.<br><br> 
+                        Omladinski pogon podijeljen je na šest uzrasnih kategorija: mlađi prednatjecatelji (do 10 godina), 
+                        stariji prednatjecatelji (10 do 12 godina), predpioniri (11 do 13 godina), pioniri (13 do 15 godina), 
+                        kadeti (15 do 17 godina) i juniori (17 do 19 godina).
+                      </p>
+                </div>
+
+                <div class="col-md-5" id="form">
+                    <form>
+                      <h2>Prijavi se za školu</h2>
+                      <div class="form-group">
+                        <label>Ime</label>
+                        <input type="text" class="form-control" id="ime" placeholder="Unesite ime" required>
+                      </div><br>
+
+                      <div class="form-group">
+                        <label>Prezime</label>
+                        <input type="text" class="form-control" id="prezime" placeholder="Unesite prezime" required>
+                      </div><br>
+                        
+                      <div class="form-group">
+                        <label>Email adresa</label>
+                        <input type="email" class="form-control" id="email" placeholder="Unesite email adresu" required>
+                      </div><br>
+
+                      <div class="form-group">
+                        <label>Godine</label>
+                        <input type="number" class="form-control" id="godine" placeholder="Unesite dob (max. 19god)" required><br>
+                      </div>
+
+                      <button type="button" class="btn btn-light" id="skola_gumb" onclick="validacija()">Prijavi se</button><br><br>
+
+                      <div class="alert alert-success" role="alert" id="alert1">
+                        Uspješno ste se prijavili za školu!
+                      </div>
+
+                      <div class="alert alert-danger" role="alert" id="alert2">
+                        Neuspjela prijava! Provjerite unesene podatke.
+                      </div>
+                          
+                    </form>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <!--Skola section end-->
+
+    <!-- Social Media and newsletter-->
+        <div class="social-media">
+          <div class="container text-center" >
+              <div class="row">
+                  <div class="col-md-6" id="mreze">
+                      <h2>Društvene Mreže</h2>
+                      <img src="./images/logo.png" alt="" height="200px" width="200px"> <br>
+                      <div class="social-icons">
+                          <ul>
+                            <li><a href="https://www.instagram.com/hsk.zrinjski/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com/hsk.zrinjski" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></a></i></li>
+                            <li><a href="https://twitter.com/ZrinjskiMostar" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></a></i></li>
+                            <li><a href="https://www.youtube.com/user/strudla101" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></a></i></li>
+                          </ul>
+                        </div>
+                  </div>
+
+                  <div class="col-md-6">
+                      <form action="" class="newsletter">
+                          <h2>HŠK Zrinjski Mostar <br> newsletter</h2>
+                          <p>Pretplati se i prvi saznaj najvažnije vijesti</p>
+                          <div class="newsletter-box">
+                              <i class="fas fa-envelope"></i>
+                              <input class="emailbox" type="email" id="email" placeholder="Enter your email id">
+                              <button type="button" id="gumb">Pretplati se</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Social Media and newsletter end-->
+
+
+      <div class="last-section">
+        <p>© All rights reserved - HŠK Zrinjski Mostar</p>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="./script.js"></script>
+    </body>
+</html>
