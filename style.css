@@ -29,6 +29,10 @@ body{
     list-style: none;
 }
 
+.main-header ul{
+    margin-left: 150px;
+}
+
 .main-header li a{
     color: #fff;
     font-family: 'Trebuchet MS', sans-serif;
@@ -200,7 +204,7 @@ font-size:300%;
 
 
 /* Responsive paragraph */
-@media screen and (max-width:767px) {
+@media screen and (max-width:992px) {
     .style p{ padding-left:20px;
         padding-right: 20px;
         text-align: justify;
@@ -210,7 +214,7 @@ font-size:300%;
 
 
 .style h1{
-    text-shadow: 2px 2px 5px grey;
+    text-shadow: 1px 1px 5px grey;
 }
 
 .prvi{
@@ -226,9 +230,11 @@ font-size:300%;
     margin-bottom: 30px;
 }
 
-.style #hero-row img{
+#hero-row img{
     box-shadow: 10px 10px 8px grey;
 }
+
+
 /* Style class section end */
 
 
@@ -242,6 +248,7 @@ font-size:300%;
     color: #fff;
     margin-top: 20px;
     box-shadow: 10px 10px 8px grey;
+    
 }
 
 #form button:hover{
@@ -266,3 +273,30 @@ font-size:300%;
     color: #fff;
 }
 /* Table section end */
+
+
+/* Responsive start */
+#collapse_button{
+    color: #fff;
+}
+
+@media screen and (max-width:1200px) {
+    .main-header li a{
+        color: #fff;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        text-decoration: none;
+        display: inline;   
+    }
+
+   .main-header{
+       margin-left: 30px;
+   }
+
+   .main-header ul{
+        margin-left: -100px;
+        margin-top: 10px;
+}
+    
+}
+/* Responsive end */
