@@ -192,11 +192,22 @@ font-size:300%;
 
 .style p{
     padding-left: 150px;
-    padding-right: 150px;
+    padding-right: 100px;
     font-family: Georgia, serif;
     font-size: larger;
-    text-align:left;
+    text-align: justify;
 }
+
+
+/* Responsive paragraph */
+@media screen and (max-width:767px) {
+    .style p{ padding-left:20px;
+        padding-right: 20px;
+        text-align: justify;
+    }
+}
+/* Responsive paragraph end*/
+
 
 .style h1{
     text-shadow: 2px 2px 5px grey;
